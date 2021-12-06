@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity
     private int getPressure;
     private int getHumidity;
     private String getWeather;
-    private String API_KEY;
 
 
     @Override
@@ -56,7 +55,6 @@ public class MainActivity extends AppCompatActivity
         pressureTxt = findViewById(R.id.pressureTxt);
         humidityTxt = findViewById(R.id.humidityTxt);
         currWeatherTxt = findViewById(R.id.currWeatherTxt);
-        API_KEY = "6fb075d467cec6f9dde520a3383b91ee";
 
 
         submit.setOnClickListener(new View.OnClickListener()
@@ -71,7 +69,7 @@ public class MainActivity extends AppCompatActivity
                     editText.setError("Please enter city name");
                 } else
                 {
-                    String url = "https://api.openweathermap.org/data/2.5/weather?q=" + getCityName + "&appid="+API_KEY;
+                    String url = "https://api.openweathermap.org/data/2.5/weather?q=" + getCityName + "&appid="+API_KEY.apiKey;
 
                     JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>()
                     {
