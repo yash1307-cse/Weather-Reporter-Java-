@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity
                     editText.setError("Please enter city name");
                 } else
                 {
-                    String url = "https://api.openweathermap.org/data/2.5/weather?q=" + getCityName + "&appid="+API_KEY.apiKey;
+                    String url = "https://api.openweathermap.org/data/2.5/weather?q=" + getCityName + "&appid=" + API_KEY.apiKey;
 
                     JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>()
                     {

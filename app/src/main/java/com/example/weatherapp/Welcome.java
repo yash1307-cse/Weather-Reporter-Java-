@@ -1,10 +1,10 @@
 package com.example.weatherapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Welcome extends AppCompatActivity
 {
@@ -21,9 +21,9 @@ public class Welcome extends AppCompatActivity
             @Override
             public void run()
             {
-                Intent intent = new Intent(Welcome.this,MainActivity.class);
+                Intent intent = new Intent(Welcome.this, MainActivity.class);
                 startActivity(intent);
             }
-        },2000);
+        }, 2000);
     }
 }
