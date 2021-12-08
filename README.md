@@ -10,4 +10,6 @@ Api used for this app is [Open Weather Map](https://openweathermap.org/api) API
 
 ## Screenshots
 
-![Report](https://github.com/yash1307-cse/Weather-Reporter-Java-/blob/master/preview/report.png)
+![](https://github.com/yash1307-cse/Weather-Reporter-Java-/blob/master/preview/report.png)
+
+![](https://github.com/yash1307-cse/Weather-Reporter-Java-/blob/master/preview/error.png)
