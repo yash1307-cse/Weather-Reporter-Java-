@@ -13,4 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-/app/src/main/java/com/example/weatherapp/API_KEY.java
+/app/src/main/java/com/yash1307/weatherapp/API_KEY.java
