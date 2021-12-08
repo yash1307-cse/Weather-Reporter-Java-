@@ -1,10 +1,13 @@
-package com.example.weatherapp;
+package com.yash1307.weatherapp;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.weatherapp.MainActivity;
+import com.example.weatherapp.R;
 
 public class Welcome extends AppCompatActivity
 {
